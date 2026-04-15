@@ -1,0 +1,25 @@
+-- Point-in-Time Restore
+-- Silme işleminden önceki ana dönüldü
+
+USE master;
+
+ALTER DATABASE AdventureWorks2019
+SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+
+RESTORE DATABASE AdventureWorks2019
+FROM DISK = 'C:\Backup\AW_Full_2.bak'
+WITH NORECOVERY, REPLACE, STATS = 10;
+
+RESTORE LOG AdventureWorks2019
+FROM DISK = 'C:\Backup\AW_Log_2.bak'
+WITH NORECOVERY;
+
+RESTORE LOG AdventureWorks2019
+FROM DISK = 'C:\Backup\AW_Log_3.bak'
+WITH NORECOVERY, STOPAT = '2026-04-15 15:09:30.000';
+
+RESTORE DATABASE AdventureWorks2019
+WITH RECOVERY;
+
+ALTER DATABASE AdventureWorks2019
+SET MULTI_USER;
