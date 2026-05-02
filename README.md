@@ -77,7 +77,7 @@ Silme işleminden önceki ana başarıyla geri dönüldü.
 ```sql
 RESTORE LOG AdventureWorks2019
 FROM DISK = 'C:\Backup\AW_Log_2.bak'
-WITH NORECOVERY, STOPAT = '2026-05-02 17:32:00.560';
+WITH NORECOVERY, STOPAT = '2026-04-15 17:32:00.560';
 ```
 
 ### 7️⃣ Yedek Doğrulama
