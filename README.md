@@ -1,7 +1,9 @@
 # Veritaban-Yedekleme-ve-Felaketten-Kurtarma-Plan-
+
+#YOUTUBE LİNKİ
 https://www.youtube.com/watch?v=aKtcBO9g6Hc
 
-Tamam, GitHub'a özel yazayım — rozetler, emojiler, düzgün formatlamayla.
+
 
 Proje 2 README.md:
 markdown# 🗄️ Veritabanı Yedekleme ve Felaketten Kurtarma Planı
