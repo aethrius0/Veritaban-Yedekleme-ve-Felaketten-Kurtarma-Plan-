@@ -1,12 +1,11 @@
 # Veritaban-Yedekleme-ve-Felaketten-Kurtarma-Plan-
 
-#YOUTUBE LİNKİ
+YOUTUBE LİNKİ
 https://www.youtube.com/watch?v=aKtcBO9g6Hc
 
 
 
-Proje 2 README.md:
-markdown# 🗄️ Veritabanı Yedekleme ve Felaketten Kurtarma Planı
+
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![SSMS](https://img.shields.io/badge/SSMS-19-blue?style=for-the-badge)
