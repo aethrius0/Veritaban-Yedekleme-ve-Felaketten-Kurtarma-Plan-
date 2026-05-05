@@ -1,5 +1,5 @@
 
-#YOUTUBE LİNKİ
+# YOUTUBE LİNKİ
 https://www.youtube.com/watch?v=aKtcBO9g6Hc
 
 # Veritaban-Yedekleme-ve-Felaketten-Kurtarma-Plan-
